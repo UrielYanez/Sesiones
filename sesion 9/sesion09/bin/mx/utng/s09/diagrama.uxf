@@ -1,0 +1,26 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>640</x><y>300</y><w>100</w><h>30</h></coordinates><panel_attributes>Llantas</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>390</x><y>450</y><w>140</w><h>80</h></coordinates><panel_attributes>Composicion
+--
+--
+--main(String():void)--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>260</y><w>80</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;80;60;10</additional_attributes></element><element><id>Relation</id><coordinates><x>410</x><y>260</y><w>50</w><h>210</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;30;190</additional_attributes></element><element><id>Relation</id><coordinates><x>540</x><y>260</y><w>120</w><h>60</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>100;40;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>480</x><y>320</y><w>180</w><h>150</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>160;10;10;130</additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>400</y><w>180</w><h>70</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;10;160;50</additional_attributes></element><element><id>UMLClass</id><coordinates><x>290</x><y>50</y><w>260</w><h>220</h></coordinates><panel_attributes>Vehiculo
+--
+-combustible:Combustible
+-llantas:Llantas(4)
+-marca:String
+-modelo:String
+-anioFabricacion:int
+--
++&lt;&lt;Constructor&gt;&gt;Vehiculo(Strng, String, Int)
++getCombustible():combustible
++setCombustible(combustible):void
+...
++colocarLlantas(Llanta, Llanta, Llanta, Llanta):void
++llenarTanque():void
++avanzar():void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>80</x><y>340</y><w>160</w><h>100</h></coordinates><panel_attributes>Combustible
+--
+-litrosMaximos:short
+-litrosActuales:short
+--
++usar():void
+--getters y setters--</panel_attributes><additional_attributes></additional_attributes></element></diagram>

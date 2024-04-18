@@ -1,0 +1,10 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>270</x><y>200</y><w>230</w><h>150</h></coordinates><panel_attributes>Contador
+--
+_ -contadorClase:Short_
+-contadro Instancia:Short
++&lt;&lt;Constructor&gt;&gt;Contador()
+_+getContadorClase():Short_
++getContadorInstancia():Short</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>190</x><y>480</y><w>180</w><h>60</h></coordinates><panel_attributes>Miembros Estáticos
+-
+--
+_+main(String() ):void_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>200</x><y>340</y><w>110</w><h>160</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>90;10;10;140</additional_attributes></element></diagram>

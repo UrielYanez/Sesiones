@@ -1,0 +1,30 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>150</x><y>50</y><w>280</w><h>90</h></coordinates><panel_attributes>BloquesInicialización
+--
+
+--
++main(args:String [ ) ; void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>40</x><y>220</y><w>280</w><h>210</h></coordinates><panel_attributes>Alumno
+--
+-curso:String
+-sesion:bye
+-objetivo:String
+--
++getCurso()=String
++getSesion()=byte
++getObjetivo()=String
+
++setCurso(String):void
++setSesion(byte):void
++setObjetivo(String):void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>390</x><y>380</y><w>280</w><h>160</h></coordinates><panel_attributes>Automovil
+--
+-marca:String
+-modelo
+-anioFabricacion:int
+-kilometraje:int
+--
++Automovil(String, String, int, int)
++hashCode():int
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>80</x><y>90</y><w>90</w><h>150</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;130;70;10</additional_attributes></element><element><id>Text</id><coordinates><x>130</x><y>140</y><w>30</w><h>20</h></coordinates><panel_attributes>Usa</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>450</x><y>160</y><w>280</w><h>100</h></coordinates><panel_attributes>Fabrica
+--
+
+--
++main(args:String [ ) ; void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>490</x><y>250</y><w>70</w><h>150</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;130;50;10</additional_attributes></element><element><id>Text</id><coordinates><x>530</x><y>310</y><w>30</w><h>20</h></coordinates><panel_attributes>Usa</panel_attributes><additional_attributes></additional_attributes></element></diagram>

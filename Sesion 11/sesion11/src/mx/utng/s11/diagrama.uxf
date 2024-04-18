@@ -1,0 +1,24 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>Relation</id><coordinates><x>130</x><y>80</y><w>190</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;170;10</additional_attributes></element><element><id>Relation</id><coordinates><x>130</x><y>180</y><w>190</w><h>50</h></coordinates><panel_attributes>lt=-
+m1=0..n
+m2=0..1
+Enseña a &gt;</panel_attributes><additional_attributes>10;20;170;20</additional_attributes></element><element><id>Relation</id><coordinates><x>130</x><y>130</y><w>190</w><h>30</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;170;10</additional_attributes></element><element><id>Text</id><coordinates><x>160</x><y>140</y><w>130</w><h>20</h></coordinates><panel_attributes>Dependencia - Usa un</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>390</x><y>270</y><w>280</w><h>100</h></coordinates><panel_attributes>bg=green
+Triangulo
+--
+-ESTILO:String
+--
+&lt;&lt;Constructor&gt;&gt;Triangulo(double, double, String)
++getESTILO():String
++area():double</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>400</x><y>50</y><w>270</w><h>130</h></coordinates><panel_attributes>bg=yellow
+FiguraPlana
+--
+BASE:double
+ALTURA:double
+--
+&lt;&lt;Constructor&gt;&gt; FiguraPlana(double, double)
++getBASE():double
++getALTURA():double
++mostrarDimension():void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>440</x><y>440</y><w>190</w><h>80</h></coordinates><panel_attributes>PruebaTriangulo
+--
+
+--
++main(String () ):void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>510</x><y>170</y><w>30</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>Text</id><coordinates><x>520</x><y>220</y><w>40</w><h>20</h></coordinates><panel_attributes>es una</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>520</x><y>360</y><w>40</w><h>100</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;10;20;80</additional_attributes></element><element><id>Text</id><coordinates><x>540</x><y>390</y><w>30</w><h>20</h></coordinates><panel_attributes>usa</panel_attributes><additional_attributes></additional_attributes></element></diagram>

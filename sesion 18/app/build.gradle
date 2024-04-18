@@ -1,0 +1,22 @@
+plugins{
+    id 'java'
+}
+jar{
+    manifest{
+        attributes 'Main-Class': 'sesion18.IntegerToBinary'
+    }
+}
+task hello{
+    doLast{
+        println('Hello World!')
+        println('5+8')
+        def int x = 10
+        def float y = 20.0
+        println('El valor de X es: '+x+
+                '\nEl valor de Y es: '+y)
+
+                for(int i=1; i<=10; i++){
+                    println(i)
+                }
+    }
+}
